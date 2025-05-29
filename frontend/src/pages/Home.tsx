@@ -48,7 +48,7 @@ const Home = () => {
 
     return (
         <>
-            <div className="px-6 py-10 space-y-12">
+            <div className="px-6 mt-6 py-12 space-y-12">
                 {/* Brand Title */}
                 <div>
                     <h1 className="text-5xl font-light">Eclypse<sup className="text-sm">®</sup></h1>
