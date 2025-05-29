@@ -28,6 +28,9 @@ const Address = require('./models/Address');
 const Order = require('./models/Order');
 
 // Save address and order
+app.get("/", (req, res) => {
+  res.status(200).send("welcome to eshop")
+});
 app.post('/api/cart', async (req, res) => {
   try {
     const { firstName, lastName, street, apt, state, zip } = req.body;
